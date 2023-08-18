@@ -1,6 +1,6 @@
 provider "aws" {
   region  = "us-east-1"
-  profile = "kirishika"
+  profile = "terraform"
 }
 
 module "eks-jx" {
