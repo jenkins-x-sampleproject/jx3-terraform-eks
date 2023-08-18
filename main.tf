@@ -1,6 +1,8 @@
 provider "aws" {
   region  = "us-east-1"
-  profile = "terraform"
+  access_key = "AKIA3B6VJCBFTWQ6N4PT"
+
+  secret_key = "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"
 }
 
 module "eks-jx" {
